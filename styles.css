@@ -103,6 +103,12 @@ h1 {
     color: white;
 }
 
+/* 최근사진 스타일 추가 */
+.image-container img {
+    max-width: 100%;  /* 이미지 크기 조정 */
+    height: auto;
+}
+
 /* 경력과 프로젝트 스타일 */
 .experience,
 .projects {
