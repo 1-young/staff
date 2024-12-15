@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #121212;  /* 어두운 배경색 */
+    color: #e0e0e0;  /* 밝은 글자색 */
     line-height: 1.6;
     display: flex;
     justify-content: center;
@@ -19,8 +19,8 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #1d1d1d;  /* 어두운 헤더 배경 */
+    color: #ffffff;
     text-align: center;
     padding: 20px;
     border-radius: 8px 8px 0 0;
@@ -34,11 +34,11 @@ h1 {
 }
 
 .container {
-    background-color: white;
+    background-color: #1f1f1f;  /* 어두운 콘텐츠 배경 */
     width: 100%;
     max-width: 800px;
     border-radius: 8px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);  /* 그림자 색상 어두운 톤으로 변경 */
     padding: 30px;
     margin-top: 20px;
 }
@@ -71,11 +71,12 @@ h1 {
 .profile-details h2 {
     font-size: 2rem;
     margin-bottom: 10px;
+    color: #ffffff;  /* 밝은 색 텍스트 */
 }
 
 .profile-details p {
     font-size: 1.2rem;
-    color: #555;
+    color: #bbbbbb;  /* 약간 밝은 회색 텍스트 */
 }
 
 /* 바로가기 링크 스타일 */
@@ -88,10 +89,10 @@ h1 {
 
 .shortcut-link {
     font-size: 1.2rem;
-    color: #4CAF50;
+    color: #ffffff; /* 밝은 텍스트 색상 */
     text-decoration: none;
     padding: 8px 16px;
-    background-color: #e7f5e4;
+    background-color: #444444;  /* 어두운 배경 색으로 변경 */
     border-radius: 5px;
     transition: all 0.3s ease;
     text-align: center;
@@ -99,8 +100,8 @@ h1 {
 }
 
 .shortcut-link:hover {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #666666;  /* 호버 시 밝은 회색으로 변경 */
+    color: #ffffff;  /* 텍스트 색상은 흰색으로 유지 */
 }
 
 /* 최근사진 스타일 추가 */
@@ -119,13 +120,13 @@ h1 {
 .projects h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #333;
+    color: #ffffff;  /* 제목 색상 밝게 */
 }
 
 .experience-item,
 .project-item {
     margin-bottom: 20px;
-    background-color: #f1f1f1;
+    background-color: #333333;  /* 어두운 배경 */
     padding: 15px;
     border-radius: 8px;
 }
@@ -134,13 +135,13 @@ h1 {
 .project-item h4 {
     font-size: 1.3rem;
     margin-bottom: 5px;
-    color: #333;
+    color: #e0e0e0;  /* 텍스트 색상 밝게 */
 }
 
 .experience-item p,
 .project-item p {
     font-size: 1rem;
-    color: #555;
+    color: #bbbbbb;  /* 조금 밝은 회색 텍스트 */
 }
 
 /* 모바일 반응형 */
